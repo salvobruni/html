@@ -64,7 +64,6 @@ html, body {
     text-decoration: none;
 }
 
-/* Stili per dispositivi con larghezza massima di 768px (ad esempio, dispositivi mobili) */
 @media (max-width: 768px) {
     .hero-header {
         flex-direction: column; /* Imposta la direzione della flessione su colonna */
@@ -249,6 +248,7 @@ hr {
 
 .project p {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 10px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -508,11 +508,20 @@ footer {
 
 .hero-content p, .hero-content a {
     font-family: Plus Jakarta Sans, sans-serif;
-    padding: 50px;
     color: #fff;
     text-decoration: none;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .breadcrumb {
+        margin-top: 80px;
+    }
+
+    .projectDesc {
+        margin-bottom: 80px;
+    }
+  }
 
 .gallery-container {
     max-width: 1500px;
@@ -534,6 +543,12 @@ footer {
     height: auto;
     display: block;
     border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Plus Jakarta Sans, sans-serif;
 }
 
 /* Mobile */
