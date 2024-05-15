@@ -422,7 +422,7 @@ footer {
 .hero-portfolio {
     position: relative;
     width: 100%;
-    height: 30vh;
+    height: 60vh;
     background-image: url('img/hero.png');
     background-size: cover;
     background-position: center;
@@ -515,11 +515,11 @@ footer {
 
 @media (max-width: 768px) {
     .breadcrumb {
-        margin-top: 180px;
+        margin-top: 50px;
     }
 
     .projectDesc {
-        margin-bottom: 180px;
+        margin-bottom: 50px;
     }
   }
 
